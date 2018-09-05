@@ -518,29 +518,72 @@ h1 {
   color: white;
   text-shadow: 2px 2px black;
   position: relative;
-  top: 5%;
-  padding: 5% 0 5% 0;
+  top: 3%;
+  padding: 2% 0 2% 0;
   text-align: center;
 }
 
 
-#McDonaldsTouchscreen {
-  background: url(../img/mcdonalds-touchscreen.jpg) no-repeat center center fixed;
+#PunchCard {
+  background-image: url(../img/3664956027_fb535d2b34_o.jpg);
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center center;
+}
+#OldKeyboards {
+  background-image: url(../img/8877604417_b9b6b4d4a7_o.jpg);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+#OldMouse {
+  background-image: url(../img/3655725631_c4b22591d8_o.jpg);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+#GraphicsTablet {
+  background-image: url(../img/2297652788_8cf74c5c40_o.jpg);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+#WiiMote {
+  background-image: url(../img/Wiimote-in-Hands.jpg);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+#VoiceAssistants {
+  background-image: url(../img/voice-assistants.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#GestureControl {
+  background-image: url(../img/Gesture_Recognition.jpg);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#Evolution {
+  background-image: url(../img/evolution-conversation.png);
+  -webkit-background-size: fit;
+  -o-background-size: fit;
+  background-size: fit;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 
 
 
-
-
-
-.Z3988 {
-  font-size: 70%
-  font-weight: 100;
-}
 
 
 .list-items li {
@@ -562,11 +605,23 @@ h1 {
   list-style: square outside;
 }
 
+.attribution {
+  font-size: 120%;
+  color: black;
+  text-shadow: 1px 1px white;
+  position: relative;
+  top: 70%;
+  float: right;
+}
 
 .csl-entry {
-  font-size: 60%;
+  font-size: 45%;
   font-weight: 100;
-  line-height: 120%;
-  padding: 10px 0 5px; 0;
-  border-bottom: 1px solid white;
+  line-height: 100%;
+  padding: 6px 0 3px 0;
+}
+
+.Z3988 {
+  font-size: 45%;
+  font-weight: 100;
 }
