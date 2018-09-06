@@ -448,17 +448,22 @@ a:focus {
   float: right;
   width: 20%;
 }
-
-#impress-toolbar {
-  position: fixed;
-  bottom: 3%;
-  right: 5%;
-  z-index: 1;
+#impress-toolbar button, #impress-toolbar select {
+   color: white;
+   background-color: #2C3E50;
+   font-weight: bold;
+   padding: 2%;
+   margin: 1%;
+   border: 1px solid white;
 }
-#impress-toolbar button {
-
+.impress-enabled div#impress-toolbar {
+    position: fixed;
+    right: 1px;
+    bottom: 1px;
+    opacity: 0.8;
+    width: 30%;
+    clear: both;
 }
-
 .source {
   font-size: 85%;
   text-align: center;
@@ -580,6 +585,39 @@ h1 {
   background-position: center center;
   background-repeat: no-repeat;
 }
+#Anatomy {
+  background-image: url(../img/anatomy-voice-interaction.png);
+  -webkit-background-size: fit;
+  -o-background-size: fit;
+  background-size: fit;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#Mozilla {
+  background-image: url(../img/Common-Voice-large-1400x770.png);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat
+}
+#Sexism {
+  background-image: url(../img/sexism-voice-assistant.png);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat
+}
+#AlexaPrivacy {
+  background-image: url(../img/alexa-privacy.png);
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat
+}
+
 
 
 
